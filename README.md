@@ -3,7 +3,7 @@
 ## Conteúdo programático
 
 - [x] 24/09/2019
-	- [x ] Introdução à Internet, World Wide Web e Sociedade da Informação;
+	- [x] Introdução à Internet, World Wide Web e Sociedade da Informação;
 	- [x] Introdução às tecnologias e abordagens de Programação Web;
 - [x] 07/10/2019
 	- [x] Linguagens de Marcação e Folhas de Estilos;
