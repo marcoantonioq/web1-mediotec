@@ -16,5 +16,7 @@
 	- [x] Entenderemos os elementos que formam uma página HTML;
 	- [x] Continuar no desenvolvimento/formatação da página web.
 - [ ] 21/10/2019
-	- [ ] Formulários HTML: Pagina contato
+	- [ ] Formulários HTML;
+	- [ ] Ferramenta Bootstrap;
+	- [ ] Revisão do conteúdo aprendido;
 	- [ ] Continuar no desenvolvimento/Formulário de contato.
