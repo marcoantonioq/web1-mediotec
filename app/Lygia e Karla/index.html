@@ -1,41 +1,133 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-   
-    <head>
-        <meta charset="UTF-8">
-        <title>Bem-Vindo no negócio em T.I</title>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bem-Vindo no negócio em T.I</title>
+    
+    <!-- Responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS & Bootstrap -->
+    <link rel="stylesheet" href="../src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <!-- Meu css principal -->
+    <link rel="stylesheet" href="./css/main.css">
+    
 </head>
+
 <body>
-
-<!-- Top -->
-<div style="background-color: red">
-             Bem-Vindo no negócio em T.I
-</div>
-
-
-<!-- Menu direito -->
-<div style='background-color: chartreuse'>
- 
- <ul>
-Trabalhamos:
-<li>Criação de sites(Web Design)</li>
-<li>Manutenção dos computadores</li>
-<li>Instalaçoẽs de camẽras</li>
-<li>limpamento de mémoria RAM</li>
-<li>vendas de equipamentos</li>
-</ul>
-</div>
-
-<!-- Conteúdo -->
-<div style='background-color: cornflowerblue'>
+    
+    <header class="container-fluid">
+        <nav class="fixed-top float-right text-right p-2">
+            <a href="mailto:nome@gmail.com">meu1@gmail.com</a><br>
+            <a href="mailto:nome@gmail.com">meu2@gmail.com</a><br> </p>
+            <a href="#">Sair</a>
+        </nav>
+        <div class="row">
+            <!-- Logo -->
+            <section class="col-md-2 p-1">
+                <img src="https://png.pngtree.com/templates/md/20180619/md_5b288f96600f8.jpg" class="img-fluid" alt="Logo">
+            </section>
+            
+            <section class="col-md-10 p-2 flex align-self-center">
+                <h1>
+                    NEGÓCIOS EM T.I. 
+                </h1>
+            </section>
+            
+        </div>
+        
+        <div class="row mt-2 p-1">
+            <nav class="col-12 navbar navbar-expand-lg navbar-light ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <section class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Item 1 </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Item 2</a>
+                        </li>
+                    </ul>
+                </section>
+                
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search">
+                </form>
+                
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Idioma: BR 
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+                
+            </nav>
+        </div>
+        
+    </header>
+    
+    <main class="container pt-3">
+        <div class="row">
+            <article class="col-12">
+                Conteúdo </p>
+                
+                
+                
+                <ul>
+                    Trabalhamos:
+                    <li>Criação de sites(Web Design)</li>
+                    <li>Manutenção dos computadores</li>
+                    <li>Instalaçoẽs de camẽras</li>
+                    <li>limpamento de mémoria RAM</li>
+                    <li>vendas de equipamentos</li>
+                </ul>
+                
+                <hr>
+                
+                <!-- Conteúdo -->
                 aqui você encontrará variados tipos de serviços voltados a T.I
-Especialização na área de tecnologia, e serviços feitos com responsabilidade e seriedade
-e o melhor de tudo, aqui você tem profissionas  com um preço muito em conta
+                Especialização na área de tecnologia, e serviços feitos com responsabilidade e seriedade
+                e o melhor de tudo, aqui você tem profissionas  com um preço muito em conta
+                
+                Alem de tudo isso você encontra tecnicos perto de você que podem te ajudar a melhorar seu conhecimento  em na area de informatica.
+                
+                
+                
+            </article>
+            
+        </div>
+    </main>
 
-Alem de tudo isso você encontra tecnicos perto de você que podem te ajudar a melhorar seu conhecimento  em na area de informatica.
-
-</div>
-
+    <footer class="row text-center p-3">
+        <section class="col-12 tex-center">
+            <h1>
+                INFORMAÇÕES <img src="data:image/png;base64,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" alt="" width="50px">
+            </h1>
+        </section>
+    </footer>
+    
+    <!-- JavaScrips -->
+    <script src="../src/js/jquery.min.js"></script>
+    <script src="../src/js/popper.min.js"></script>
+    <script src="../src/js/bootstrap.min.js"></script>
+    
+    <style>
+        div {
+            border: 0.1px solid #111111;
+        }
+    </style>
+    
 </body>
 
 </html>

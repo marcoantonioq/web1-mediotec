@@ -4,13 +4,96 @@
 <head>
     <meta charset="UTF-8">
     <title>Bem vindo Tempero & Arte: Cidade de Goiás</title>
+
+    <!-- Responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS & Bootstrap -->
+    <link rel="stylesheet" href="../src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <!-- Meu css principal -->
+    <link rel="stylesheet" href="./css/main.css">
+
 </head>
 
-    <body>
-        Empada sempre foi nossa especialidade. A receita original e exclusiva da massa é inconfundível! Feita com produtos
-        selecionados, o resultado é realmente um sabor delicioso e diferenciado. Recheios tradicionais, inovadores,
-        integrais ou doces oferecem
-        uma experiência que você só encontra na verdadeira Casa da Empada. Trabalhamos: Venda de empada; Almoço; .....
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">T & A</a>
 
-    </body>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="container">
+
+            <h1 class="text-center">
+                Bem vindo
+            </h1>
+
+            <!-- Linha -->
+            <div class="row pt-5">
+                <div class="col-md-6 text-center">
+                    <img class="img-fluid" src="./img/empada001.png" alt="">
+                    <section>
+                        Empada sempre foi nossa especialidade. <br>
+                    </section>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <img class="img-fluid" src="./img/empada002.png" alt="">
+                    <section>Receita exclusiva!</section>
+                </div>
+            </div>
+
+            <div class="row pt-5">
+                <div class="col-12 card">
+                    <dib class="card-body">
+                        Trabalhamos:
+                        <ul>
+                            <li>Venda de empada;</li>
+                            <li>Almoço;</li>
+                        </ul>
+                        A receita original e exclusiva da massa é inconfundível!
+                        Feita com produtos selecionados, o resultado é realmente um sabor delicioso e diferenciado.
+                        Recheios tradicionais, inovadores, integrais ou doces oferecem uma experiência que você só
+                        encontra na verdadeira Casa da Empada.
+                    </dib>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer pt-5">
+        <div class="footer-copyright text-center py-3">© 2018 Copyright: Marco Antônio <br>
+            Telefone: <a href="tel:+55 62 994905288">(62) 99490-8588</a>
+        </div>
+    </footer>
+
+</body>
+
+<!-- JavaScrips -->
+<script src="../src/js/jquery.min.js"></script>
+<script src="../src/js/popper.min.js"></script>
+<script src="../src/js/bootstrap.min.js"></script>
+
+
 </html>

@@ -1,49 +1,143 @@
+<title>Bem vindo Big Acai: Cidade de Goiás</title>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <title>Bem vindo Big Acai: Cidade de Goiás</title>
+    <title></title>
+    
+    <!-- Responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS & Bootstrap -->
+    <link rel="stylesheet" href="../src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <!-- Meu css principal -->
+    <link rel="stylesheet" href="./css/main.css">
+    
+    <style>
+        header div {
+            margin-top: 1rem;
+            border-radius: 25px;
+            border: 1px solid;
+        }
+        
+        nav ul {
+            padding:0px;
+            margin:0px;
+            list-style:none;
+        }
+        
+        nav.inline ul li { display: inline; }
+        nav ul li {
+            margin-top: 10px;
+            
+        }
+        
+        nav ul li a {
+            padding: 10px;
+            display: inline-block;
+            text-decoration: none;
+            border-bottom:3px solid #EDEDED;
+            width: 100%;
+            border: 1px solid black;
+        }
+        
+    </style>
+    
 </head>
 
 <body>
-<!-- Top -->
-<div style="background-color: red">
-    Seção do documento (Top)
-    logomarca, tempo de espera(30-60min), endereco loja fisica, nome do estabelecimento
-</div>
-<!-- Menu top -->
-<div style='background-color: chartreuse'>
-    Seção do documento (Direito)
-     Sejam bem vindos ao nosso site nos os recebemos calorosamente.
-nesta plataforma voce ira poder fazer seu pedido de acai de forma facil, com rapidez e que serao entregues
-na porta de sua residencia
- <ul>
- TRABALHAMOS:
-<li>barcas de acai</li>
-<li>copos de acai</li>
-<li>tacas de acai</li>
-<li>tigelas de acai</li>
-</ul>
+    <header class="container">
+        <div class="row">
+            <!-- Logo -->
+            <section class="col-md-3 p-1">
+                <img src="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c6/9a/12/c69a1281-b479-130b-2736-06e8d810293f/source/512x512bb.jpg" class="img-fluid" alt="Logo">
+            </section>
+            
+            <section class="col-md-5 text-center flex align-self-center">
+                <h1>
+                    BIG AÇAI</p>
+                </h1>
+                <small> endereco loja fisica</small> <br>
+                
+                <section class="row text-center p-5">
+                    <secion class="col-3 flex align-self-center">
+                        ABERTO 
+                    </secion>
+                    <secion class="col-9 flex align-self-center">
+                        Tempo de espera(30-60min), nome do estabelecimento
+                    </secion>
+                    
+                </section>
+            </section>
+            
+            <section class="col-md-4 text-center flex align-self-center p-5">
+                Taxa de entrega grátis
+            </section>
+            
+        </div>
+    </header>
+    
+    <main class="container pt-3">
+        <artigo class="row">
+            
+            <nav class="col-md-4">
+                
+                <ul>
+                    TRABALHAMOS:
+                    <li><a href="#">barcas de acai</a></li>
+                    <li><a href="#">copos de acai</a></li>
+                    <li><a href="#">tacas de acai</a></li>
+                    <li><a href="#">tigelas de acai</a></li>
+                </ul>
+                
+                <hr>
+                tudo isso com conforto, praticidade e seguranca <br>
+                queremos que tenham a melhor experiencia com nossa plataforma online
+                
+            </nav>
+            
+            
+            <div class="col-md-4">
+                
+                <search class="md-form mt-0 p-2">
+                    <input class="form-control" type="text" placeholder="Procurar..." aria-label="Search">
+                </search>
 
-</div>
-<!-- Menu direito -->
-<div style='background-color: chartreuse'>
-    Seção do documento (Direito)
-    Sejam bem vindos ao nosso site nos os recebemos calorosamente.
-nesta plataforma voce ira poder fazer seu pedido de acai de forma facil, com rapidez e que serao entregues
-na porta de sua residencia
-</div>
-<!-- Conteúdo -->
-<div style='background-color: cornflowerblue'>
-    Seção do documento (Esquerdo)
-    tudo isso com conforto, praticidade e seguranca
+                <hr>
 
-queremos que tenham a melhor experiencia com nossa plataforma online
-</div>
-
-
+                Sejam bem vindos ao nosso site nos os recebemos calorosamente.
+                nesta plataforma voce ira poder fazer seu pedido de acai de forma facil, com rapidez e que serao entregues
+                na porta de sua residencia
+                
+            </div>
+            
+            <nav class="col-md-4">
+                <a href="#">Carrinho</a>
+                
+                <a href="#">+</a>
+                
+                <hr>
+                Sejam bem vindos ao nosso site nos os recebemos calorosamente.
+                nesta plataforma voce ira poder fazer seu pedido de acai de forma facil, com rapidez e que serao entregues
+                na porta de sua residencia
+            </nav>
+        </artigo>
+    </main>
+    
+    
+    <!-- JavaScrips -->
+    <script src="../src/js/jquery.min.js"></script>
+    <script src="../src/js/popper.min.js"></script>
+    <script src="../src/js/bootstrap.min.js"></script>
+    
+    <style>
+        div {
+            border: 0.1px solid #111111;
+        }
+    </style>
+    
 </body>
 
 </html>
-
