@@ -15,8 +15,10 @@
 	- [x] Vamos aprender as principais tags e seus atributos;
 	- [x] Entenderemos os elementos que formam uma página HTML;
 	- [x] Continuar no desenvolvimento/formatação da página web.
-- [ ] 21/10/2019
-	- [ ] Formulários HTML;
-	- [ ] Ferramenta Bootstrap;
-	- [ ] Revisão do conteúdo aprendido;
-	- [ ] Continuar no desenvolvimento/Formulário de contato.
+- [x] 21/10/2019
+	- [x] Formulários HTML;
+	- [x] Ferramenta Bootstrap;
+	- [x] Revisão do conteúdo aprendido;
+	- [x] Continuar no desenvolvimento/Formulário de contato.
+- [ ] 04/11/2019
+	- [ ] Atividade avaliativa;
