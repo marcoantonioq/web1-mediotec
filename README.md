@@ -20,5 +20,14 @@
 	- [x] Ferramenta Bootstrap;
 	- [x] Revisão do conteúdo aprendido;
 	- [x] Continuar no desenvolvimento/Formulário de contato.
-- [ ] 04/11/2019
-	- [ ] Atividade avaliativa;
+- [X] 04/11/2019
+	- [X] Atividade avaliativa;
+- [X] 11/11/2019
+	- [X] Correção prova N1;
+	- [X] Introdução ao paradigma cliente/servidor;
+	- [X] O que é PHP?
+	- [X] Instalação;
+	- [X] Sintaxe básica;
+- [ ] 18/11/2019
+	- [ ] PHP: Variáveis e tipos, array, operadores;
+	- [ ] PHP: Estruturas de controle;
