@@ -13,20 +13,10 @@
 
 $valor= 45;
 
-if($valor < 0 )
-{
-    echo  (" é negativo: " .$valor );
-}
-
 if($valor > 0 )
 {
-
-    echo ( " valor positivo $valor ");
+    echo  (" é negativo: " .$valor );
+    else()
 }
 
-if($valor == 0 )
-{
-
-    echo ( " valor é igual a zero $valor ");
-}
 

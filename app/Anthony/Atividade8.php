@@ -8,25 +8,24 @@
 </head>
 <body>
 
-
 <?php
 
-$valor= 45;
+    $i=10;
 
-if($valor < 0 )
-{
-    echo  (" é negativo: " .$valor );
-}
+    // echo $i;
+    // echo $i++;
+    // echo $i;
+    // $i = $i++;
+    // echo $i;
 
-if($valor > 0 )
-{
+    // %
 
-    echo ( " valor positivo $valor ");
-}
+    // $x=5;
 
-if($valor == 0 )
-{
-
-    echo ( " valor é igual a zero $valor ");
-}
+    if( ( $i % 2 ) == 0 ) {
+        echo "Numero par";
+    }
+    else {
+        echo "Numero impar";
+    }
 

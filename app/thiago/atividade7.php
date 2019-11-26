@@ -11,4 +11,20 @@
 
 <?php
 
-$valor=
+$valor= 75;
+
+if( $valor > 0 ) 
+{
+
+    echo  ( $valor." é  positivo");    
+}
+
+if($valor < 0 )
+{
+    echo ($valor." é  negativo");
+}
+
+if( $valor == 0 )
+{
+   echo ($valor." é igaul a zero");
+}

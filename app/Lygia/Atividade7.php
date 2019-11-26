@@ -11,7 +11,7 @@
 
 <?php
 
-$valor= 45;
+$valor= 0;
 
 if($valor < 0 )
 {
@@ -29,4 +29,5 @@ if($valor == 0 )
 
     echo ( " valor é igual a zero $valor ");
 }
+
 

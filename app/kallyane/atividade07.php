@@ -8,25 +8,22 @@
 </head>
 <body>
 
-
 <?php
 
-$valor= 45;
+$valor = 7;
+
+if( $valor > 0 ) 
+{
+
+    echo  ( $valor." é  positivo");    
+}
 
 if($valor < 0 )
 {
-    echo  (" é negativo: " .$valor );
+    echo ($valor." é  negativo");
 }
 
-if($valor > 0 )
+if( $valor == 0 )
 {
-
-    echo ( " valor positivo $valor ");
+   echo ($valor." é igaul a zero");
 }
-
-if($valor == 0 )
-{
-
-    echo ( " valor é igual a zero $valor ");
-}
-

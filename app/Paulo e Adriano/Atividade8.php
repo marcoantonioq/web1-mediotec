@@ -9,24 +9,7 @@
 <body>
 
 
-<?php
 
-$valor= 45;
-
-if($valor < 0 )
-{
-    echo  (" é negativo: " .$valor );
-}
-
-if($valor > 0 )
-{
-
-    echo ( " valor positivo $valor ");
-}
-
-if($valor == 0 )
-{
-
-    echo ( " valor é igual a zero $valor ");
-}
-
+?>
+</body>
+</html>

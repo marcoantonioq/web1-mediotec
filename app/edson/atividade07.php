@@ -29,4 +29,3 @@ if($valor == 0 )
 
     echo ( " valor é igual a zero $valor ");
 }
-
