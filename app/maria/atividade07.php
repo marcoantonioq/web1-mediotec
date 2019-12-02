@@ -10,20 +10,20 @@
 
 <?php
 
-$valor = -7;
+$valor = -24;
 
-if( $valor > 0 ) 
+if($valor > 0 ) 
 {
 
-    echo  ( $valor." é  positivo");    
+   echo ($valor." é positivo");
 }
 
 if($valor < 0 )
 {
-    echo ($valor." é  negativo");
+    echo ($valor." é negativo");
 }
 
-if( $valor == 0 )
+if($valor = 0 )
 {
-   echo ($valor." é igaul a zero");
+    echo ($valor. "é igual a zero");
 }

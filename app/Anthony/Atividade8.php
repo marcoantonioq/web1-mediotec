@@ -28,4 +28,6 @@
     else {
         echo "Numero impar";
     }
+?>
+</body>
 

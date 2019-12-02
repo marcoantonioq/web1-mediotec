@@ -4,27 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Atividade 7</title>
+    <title>Atividade 9</title>
 </head>
 <body>
 
-
 <?php
 
-$valor= -0;
+$nota1= 9;
+$nota2=4;
 
-if ( $valor > 0) 
+$media=($nota1+$nota2)/2;
+
+if($media>=6)
 {
-    echo  (" é positivo: " .$valor );
+
+ echo("Aprovado");
+
 }
 
-if ( $valor < 0 )
+
+elseif ($media>=5 )
 {
-    
-    echo (" é negativo: " .$valor );
+
+echo(" Recuperação");
 
 }
-if ( $valor == 0 ) {
-echo ( " valor de peso é igual a zero ");
-}
+else
+{
 
+echo("Reprovado");
+
+}

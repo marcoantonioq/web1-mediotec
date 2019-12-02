@@ -1,3 +1,2 @@
 <?php 
-    header('Location: http://web.com:3000/'); 
-?>
+    header('Location: http://web.br:3000/');
