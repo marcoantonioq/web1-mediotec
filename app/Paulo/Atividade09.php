@@ -42,17 +42,3 @@ if ($media)
 {
 
 echo(" Sua média é $media");
-
-}
-
-if($valor > 0)
-{
-
-    echo(" .Maior do que 0");
-}
-
-elseif($valor  < 10)
-{
-
-    echo(" .Menor que 10");
-}

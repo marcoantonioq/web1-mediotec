@@ -22,6 +22,9 @@ if($media >= 6)
 
  }
 
+?>
+</body>
+
 if($media >= 5 && $media < 6 )
 {
 
@@ -56,5 +59,3 @@ if(> 10)
 echo( "o valor é maior que 10");
 
 }
-?>
-</body>

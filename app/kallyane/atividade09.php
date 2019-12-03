@@ -14,15 +14,29 @@
     $nota2=1;
     $média=($nota1+$nota2)/2;
     
-        echo "maior nota: $nota1";
-        echo "menor nota: $nota2"; 
-        echo "Sua média é: $média";
+        echo "<br>Nota 1: $nota1";
+        echo "<br>Nota 2: $nota2";
+        echo "<br>Maior nota: $nota1";
+        echo "<br>Menor nota: $nota2"; 
+        echo "<br>Média: $média";
+
+        if( $nota1 >= 0 && $nota1 <= 10 ){  
+        echo "<br>Nota 1: válida";
+    } else {
+        echo "<br>Nota 1: invalida";
+    }
+
+    if( $nota2 >= 0 && $nota2 <= 10 ){
+        echo "<br>Nota 2: válida";
+    } else {
+        echo "<br>Nota 2: invalida";
+    }
 
     if( $média>= 6 ) {
-                 echo "aprovado";
+                 echo "<br>Status: aprovado";
     }
     elseif($média > 5) {
-        echo "recuperação";
+        echo "<br>Status: recuperação";
     } else {
-        echo "reprovado";
+        echo "<br>Status: reprovado";
     }

@@ -43,7 +43,7 @@
         //exiba recuperação, 
         echo "<br>Aluno de recuperação!";
     } else {
-        // caso contrário, 
+    // caso contrário, 
         //exiba reprovado.
         echo "Aluno reprovado";
     }

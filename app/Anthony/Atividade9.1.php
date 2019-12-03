@@ -10,8 +10,8 @@
 
 <?php
 
-$nota1= 9;
-$nota2= 9;
+$nota1= 4;
+$nota2= 2;
 $media= ($nota1 + $nota2)/2;
 $valor=  7;
 
@@ -56,22 +56,23 @@ echo( " o valor é maior que 0 " );
 {
  if( $nota1 >= 0 && $nota1 <= 10 ){  
         echo "<br>Nota 1 é valida";
- } else {
+    } else {
         echo "<br>Nota 1 invalida!!!";
-}
+    }
     
-if( $nota2 >= 0 && $nota2 <= 10 ){
+    if( $nota2 >= 0 && $nota2 <= 10 ){
         echo "<br>Nota 2 é valida";
- } else {
+    } else {
         echo "<br>Nota 2 invalida!!!";
-}
+    }
 
-if($nota1 == $nota2){
+
+    if($nota1 == $nota2){
         echo "Nota 1 e Nota 2 são iguais";
- } elseif($nota1 > $nota2){ 
+    } elseif($nota1 > $nota2){ 
         echo "<br>Maior nota é nota 1: $nota1";
- } else {
+    } else {
         echo "<br>Maior nota é nota 2: $nota2 ";
- }
+    }
 
 }

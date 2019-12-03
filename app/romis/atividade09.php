@@ -10,7 +10,7 @@
 
 <?php
 
-$nota1= 3;
+$nota1= 3 ;
 $nota2= 4;
 $media= ($nota1 + $nota2)/2;
 

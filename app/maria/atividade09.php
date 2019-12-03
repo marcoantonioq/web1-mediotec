@@ -15,7 +15,7 @@
     $média=($nota1+$nota2)/2;
     
         echo "maior nota: $nota1";
-        echo "menor nota: $nota2"; OIOI
+        echo "menor nota: $nota2"; 
         echo "Sua média é: $média";
 
     if( $média>= 6 ) {
