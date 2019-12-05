@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,8 @@
     <title>Atividade 13</title>
 </head>
 <body>
-<?php
+ 
+ <?php
 
  $var = 1;
 
@@ -22,27 +23,6 @@ while ($var <= 100) {
     $var++;
 
 }
-do {
 
-   if( ( $var % 2 ) == 0 ) {
-        echo " <b> <br> $var é par </b>";
-    }
-    else {
-        echo "<i> <br> $var é impar </i>";
-    }
-    $var++;
-
-
-} while ($var <= 100);
-
-for ($var=1; $var <= 100; $var++) { 
-
-    if( ( $var % 2 ) == 0 ) {
-        echo " <b> <br> $var é par </b>";
-    }
-    else {
-        echo "<i> <br> $var é impar </i>";
-    }
-
-
-}
+$var= 1;
+ do {

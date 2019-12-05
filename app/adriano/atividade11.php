@@ -11,9 +11,9 @@
  <?php
 
 
-$número1 = 28;
-$número2 = 7;
-$operação = "/";
+$número1 = 20;
+$número2 = 5;
+$operação = "*";
 
  switch ($operação) {
         case '+':

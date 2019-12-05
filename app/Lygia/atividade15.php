@@ -1,18 +1,21 @@
-<!DOCTYPE html>
 <html lang="br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Atividade 5</title>
+    <title>Atividade 13</title>
 </head>
 <body>
-<?php
+  <?php
 
-$nome = "Kallyane";
-$idade = 16;
+ $indice[1]="um";
+ $indice[2]="dois";
+ $indice[3]="tres";
+ $indice[4]="quatro";
+ $indice[5]="cinco";
 
-$ano =$idade-2019;
+echo "<br> voce digitou: $indice[3];"
+  
+  ?>
 
-
-echo "Ola, meu ".$nome ." e nasci no ano de ". $ano ;
+  </body>

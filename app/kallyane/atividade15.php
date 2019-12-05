@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Atividade 5</title>
+    <title>Atividade 15</title>
 </head>
 <body>
+
 <?php
 
-$nome = "Kallyane";
-$idade = 16;
+$indice=2;
 
-$ano =$idade-2019;
-
-
-echo "Ola, meu ".$nome ." e nasci no ano de ". $ano ;
+$numero[0]="zero";
+$numero[1]="um";
+$numero[2]="dois";
+$numero[3]="três";
+$numero[4]="quarto";
+$numero[5]="cinco";
+   echo "<br>Número digitado: $numero[$indice]";
