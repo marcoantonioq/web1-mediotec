@@ -20,4 +20,4 @@ $mensagem = "<font color='green'>Boa tarde!  </font>";
 } else if (($hora >= 18) AND ($hora < 24)){
 $mensagem = "<font color='blue'>Boa noite!  </font>";
 }
-echo $mensagem; 
+echo $mensagem;

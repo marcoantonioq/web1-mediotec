@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,33 +12,30 @@
     <title>Atividade 20</title>
 </head>
 <body>
+
 <?php
 
-
-
-     if($_POST){
+if($_POST){
     echo "Nome: " . $_POST['nome'] . "</br>";
     echo "Idade: " . $_POST['idade'] . "</br>";
     $nome = $_POST["nome"];
     $idade = $_POST["idade"];
-    echo " Olá, meu ".$nome ." e nasci no ano de  ".  (getdate()["year"] - $idade) ; 
-    }
 
+    $ano = ( gatedate()["year"]-$idade);
+
+
+    echo "Olá, meu ".$nome ." é nasci no ano de ". $ano ;
+
+}
 ?> 
 
 <h1>Cadastro de Cliente</h1>
 
 <form action="" method="post">
 
-Nome: <input type=text name="nome"> </br>
-idade: <input type=text name="idade"> </br>
-
-<button type="submit">Enviar</button>
+    Nome: <input type=text name="nome"> </br>
+    Idade: <input type=text name="idade"> </br>
+    
+    <button type="submit">Enviar</button>
 
 </form>
-
-
-
-
-
-

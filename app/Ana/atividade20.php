@@ -35,5 +35,3 @@ idade: <input type=text name="idade"> </br>
 
 
 
-
-
