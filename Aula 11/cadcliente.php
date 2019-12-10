@@ -1,4 +1,4 @@
-<meta charset="UTM-8" >
+<meta charset="UTF-8" >
 <title>Cadastro de Cliente</title>
 
 

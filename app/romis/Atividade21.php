@@ -25,12 +25,24 @@ if($_POST){
         echo "peso: " . $_POST['peso'] . "</br>";
         echo "altura: " . $_POST['altura'] . "</br>";
 
-        $peso = 55; 
-$altura = 1.65;
-$resultado = $peso / ($altura * $altura );
+        $peso = 90; 
+        $altura = 1.90;
+        $resultado = $peso / ($altura * $altura );
 
-echo "O seu IMC é : ";
+            echo "O seu IMC é : ", $resultado;
 
-echo "$resultado";
-    }
+ if ($resultado < 18.5) {
+            echo "Abaixo do peso";
+        } elseif ($resultado >= 18.5 && $resultado <= 24.99) {
+            echo "Acima do peso";
+        } elseif ($resultado >= 30 && $resultado <= 43.99) {
+            echo "Obesidade I";
+        } elseif ($resultado >= 35 && $resultado <= 34.99) {
+            echo "Obesidade II";
+        } 
+}
 ?> 
+
+
+</body>  
+</html>
