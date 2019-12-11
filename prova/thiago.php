@@ -20,7 +20,7 @@
         echo "CPF: " . $_POST['cpf'] . "</br>";
         echo "RG:" . $_POST['RG'] . "</br>";
         echo "data_de_nascimento:" . $_POST['data_de_nascimento'] . "</br>";
-        echo "Sexo: " . $_POST['sexo'] . "</br>";
+        echo "Sexo: " . $_POST['exo'] . "</br>";
         echo "e-mail:" . $_POST['e-mail'] . "</br>";
         echo "nome_da_mãe:" . $_POST['nome_da_mãe'] . "</br>";
         echo "área_de_atuação" . $_POST['área_de_atuação'] . "</br>";
@@ -96,10 +96,10 @@ if($_POST){
         echo "sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail: " . $_POST['e-mail'] . "</br>";
         echo "nome da mae: " . $_POST['nome_da_mae'] . "</br>";
-        echo "area_de atuaçao: " . $_POST['area_de_atuaçao'] . "</br>";
+        echo "area_de_atuaçao: " . $_POST['area_de_atuaçao'] . "</br>";
         echo "escolaridade: " . $_POST['escolaridade'] . "</br>";
         echo "endereço: " . $_POST['endereço'] . "</br>";
-        echo "telefone de contato: " . $_POST['telefone_de_contato'] . "</br>";
+        echo "telefone_de_contato: " . $_POST['telefone_de_contato'] . "</br>";
         
          
 }

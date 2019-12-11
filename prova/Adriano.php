@@ -42,8 +42,8 @@
             echo "<p>área_de_atuação Invalido";
         }
 
-        if( empty( $_POST['escolaridade'] ) ){
-            echo "<p>escolaridade Invalido";
+        if( empty( $_POST['grau de Escolaridade'] ) ){
+            echo "<p>grau de Escolaridade Invalido";
         }
 
         if( empty( $_POST['endereço'] ) ){
@@ -59,7 +59,7 @@
         echo "<p>Data_de_nascimento: " . $_POST['data_de_nascimento'] . "</br>";
         echo "<p>Sexo: " . $_POST['sexo'] . "</br>";
         echo "<p>E-mail: " . $_POST['e-mail'] . "</br>";
-        echo "<p>nome_do_responsável: " . $_POST['nome_do_responsável'] . "</br>";
+        echo "<p>nome_do_responsável: " . $_POST['nome_do_respon'] . "</br>";
         echo "<p>Área_de_atuação: " . $_POST['área_de_atuação'] . "</br>";
         echo "<p>grau de Escolaridade: " . $_POST['grau de Escolaridade'] . "</br>";
         echo "<p>Endereço: " . $_POST['endereço'] . "</br>";
