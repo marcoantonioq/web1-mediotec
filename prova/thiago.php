@@ -22,7 +22,7 @@
         echo "data_de_nascimento:" . $_POST['data_de_nascimento'] . "</br>";
         echo "sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail:" . $_POST['e-mail'] . "</br>";
-        echo "nome_da_mãe:" . $_POST['nome_da_mãe'] . "</br>";
+        echo "nome_da_mãe:" . $_POST['nome_da_me'] . "</br>";
         echo "área_de_atuação" . $_POST['área_de_atuação'] . "</br>";
         echo "escolaridade" . $_POST['escolaridade'] . "</br>";
         echo "endereço" . $_POST['endereço'] . "</br>";
