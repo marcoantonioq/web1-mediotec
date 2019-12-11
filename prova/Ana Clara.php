@@ -34,7 +34,7 @@
             echo "<p>e-mail Invalido";
         }
 
-        if( empty( $_POST['nome_da_mãe'] ) ){
+        if( empty( $_POST['nome_dos_responsaveis'] ) ){
             echo "<p>nome_dos_responsaveis Invalido";
         }
 

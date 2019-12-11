@@ -35,7 +35,7 @@
         }
 
         if( empty( $_POST['nome_dos_responsavel'] ) ){
-            echo "<p>nome_dos_ Invalido";
+            echo "<p>nome_dos_responsavel Invalido";
         }
 
         if( empty( $_POST['área_de_atuação'] ) ){

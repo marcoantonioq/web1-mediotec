@@ -86,6 +86,7 @@ if($_POST){
         if( empty( $_POST['endereço'] ) ){
             echo "<p>endereço empty";
         }
+    }
         echo "nome: " . $_POST['nome'] . "</br>";
         echo "CPF: " . $_POST['cpf'] . "</br>";
         echo "RG: " . $_POST['rg'] . "</br>";
