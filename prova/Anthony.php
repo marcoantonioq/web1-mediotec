@@ -1,28 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>prova/Anthony</title>
+    <title></title>
 </head>
 <body>
-<meta charset="UTF-8" >
-<title>Cadastrar Corriculo</title>
+<?php 
 
-<?php // inicio php
-    if($_POST){ // se $_POST existe
-        echo "Nome: " . $_POST['nome'] . "</br>";
-        echo "CPF: " . $_POST['cpf'] . "</br>";
-        echo "RG:" . $_POST['rg'] . "</br>";
-        echo "Data de nascimento:" . $_POST['data_de_nascimento'] . "</br>";
-        echo "Sexo: " . $_POST['sexo'] . "</br>";
-        echo "e-mail:" . $_POST['e-mail'] . "</br>";
-        echo "nome da mãe:" . $_POST['nome_da_mãe'] . "</br>";
-        echo "área de atuação" . $_POST['área_de_atuação']."</br>";
-        echo "escolaridade:" . $_POST['escolaridade'] . "</br>";
-        echo "endereço" . $_POST['endereço']."</br>";
-        echo "telefone para contato:" . $_POST['telefone_de_contato'] . "</br>";
+    if($_POST){ 
+        if( empty( $_POST['nome_completo'] ) ){
+            echo "<p>nome_completo Invalido";
+        }
+
+        if( empty( $_POST['cpf'] ) ){
+            echo "<p>CPF Invalido";
+        }
+
+        if( empty( $_POST['RG'] ) ){
+            echo "<p>RG Invalido";
+        }
+            
+        if( empty( $_POST['data_de_nascimento'] ) ){
+            echo "<p>data_de_nascimento Invalido";
+        }
+
+        if( empty( $_POST['sexo'] ) ){
+            echo "<p>sexo Invalido";
+        }
+
+        if( empty( $_POST['e-mail'] ) ){
+            echo "<p>e-mail Invalido";
+        }
+
+        if( empty( $_POST['nome_da_mãe'] ) ){
+            echo "<p>nome_da_mãe Invalido";
+        }
+
+        if( empty( $_POST['área_de_atuação'] ) ){
+            echo "<p>área_de_atuação Invalido";
+        }
+
+        if( empty( $_POST['escolaridade'] ) ){
+            echo "<p>escolaridade Invalido";
+        }
+
+        if( empty( $_POST['endereço'] ) ){
+            echo "<p>endereço Invalido";
+        }
+
+        if( empty( $_POST['telefone_para_contato'] ) ){
+            echo "<p>telefone_para_contato Invalido";
+        }
+        echo "<p>nome_completo: " . $_POST['nome_completo'] . "</br>";
+        echo "<p>cpf: " . $_POST['cpf'] . "</br>";
+        echo "<p>RG: " . $_POST['RG'] . "</br>";
+        echo "<p>Data_de_nascimento: " . $_POST['data_de_nascimento'] . "</br>";
+        echo "<p>Sexo: " . $_POST['sexo'] . "</br>";
+        echo "<p>E-mail: " . $_POST['e-mail'] . "</br>";
+        echo "<p>nome_da_mãe: " . $_POST['nome_da_mãe'] . "</br>";
+        echo "<p>Área_de_atuação: " . $_POST['área_de_atuação'] . "</br>";
+        echo "<p>Escolaridade: " . $_POST['escolaridade'] . "</br>";
+        echo "<p>Endereço: " . $_POST['endereço'] . "</br>";
+        echo "<p>Telefone_para_contato: " . $_POST['telefone_para_contato'] . "</br>";
        
     }
 ?> 
@@ -31,71 +72,20 @@
 
 <form action="" method="post">
 
-    nome: <input type=text name="nome"> </br>
+    Nome Completo: <input type=text name="nome_completo"> </br>
     CPF: <input type=text name="cpf"> </br>
-    RG: <input type=text name="rg"> </br>
-    data de nascimento: <input type=text name="data_de_nascimento"> </br>
-    sexo: 
-        <input type="radio" name="sexo" value="M"> Masculino | 
-        <input type="radio" name="sexo" value="F"> Feminino </br>
-    e-mail: <input type=text name="e-mail"> </br>
-    nome da mãe: <input type=text name="nome_da_mãe"> </br>
-    área de atuação: <input type=text name="área_de_atuação"> </br>
-    escolaridade: <input type=text name="escolaridade"> </br>
-    telefone de contato: <input type=text name="telefone_de_contato"> </br>
-    endereço: <input type=text name="endereço"> </br>
-    
+    RG: <input type=text name="RG"> </br>
+    Data de nascimento: <input type=text name="data_de_nascimento"> </br>
+    Sexo: <input type=text name="sexo"> </br>
+    E-mail: <input type=text name="e-mail"> </br>
+    Nome da mãe: <input type=text name="nome_da_mãe"> </br>
+    Área de atuação: <input type=text name="área_de_atuação"> </br>
+    Escolaridade: <input type=text name="escolaridade"> </br>
+    Endereço: <input type=text name="endereço"> </br>
+    Telefone para contato: <input type=text name="telefone_para_contato"> </br>
+
     <button type="submit">Enviar</button>
 
 </form>
 
-<?php
-
-if($_POST){ 
-
-        if( empty( $_POST['nome'] ) ){
-            echo "<p>nome empty ";
-        }
-        if( empty( $_POST['cpf'] ) ){
-            echo "<p>CPF empty";
-        }
-        if( empty( $_POST['rg'] ) ){
-            echo "<p> RG empty";
-        }
-         if( empty( $_POST['data de nascimento'] ) ){
-            echo "<p>data_de_Nascimento empty";
-        }
-        if( empty( $_POST['sexo'] ) ){
-            echo "<p>sexo empty";
-        }
-         if( empty( $_POST['e-mail'] ) ){
-            echo "<p>e-mail empty";
-        }
-         if( empty( $_POST['nome da mãe'] ) ){
-            echo "<p> nome_da_mãe empty";
-        }
-         if( empty( $_POST['area de atuação'] ) ){
-            echo "<p>área_de_atuação empty";
-        }
-        if( empty( $_POST['escolaridade'] ) ){
-            echo "<p>escolaridade empty";
-        }
-        if( empty( $_POST['telefone de contato'] ) ){
-            echo "<p>telefone_de_Contato empty";
-        }
-        if( empty( $_POST['endereço'] ) ){
-            echo "<p>endereço empty";
-        }
-        echo "nome: " . $_POST['nome'] . "</br>";
-        echo "CPF: " . $_POST['cpf'] . "</br>";
-        echo "RG: " . $_POST['rg'] . "</br>";
-        echo "data de nascimento: " . $_POST['data_de_nascimento'] . "</br>";
-        echo "sexo: " . $_POST['sexo'] . "</br>";
-        echo "e-mail: " . $_POST['e-mail'] . "</br>";
-        echo "nome da mãe: " . $_POST['nome_da_mãe'] . "</br>";
-        echo "área de atuação: " . $_POST['área_de_atuação'] . "</br>";
-        echo "escolaridade: " . $_POST['escolaridade'] . "</br>";
-        echo "telefone de Contato: " . $_POST['telefone_de_contato'] . "</br>";
-        echo "endereço: " . $_POST['endereço'] . "</br>";
-}
-?>
+sarveeeeeeee

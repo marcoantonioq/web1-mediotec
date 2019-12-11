@@ -21,7 +21,7 @@
         echo "nome da mãe:" . $_POST['nome_da_mãe'] . "</br>";
         echo "área de atuação" . $_POST['área_de_atuação']."</br>";
         echo "escolaridade:" . $_POST['escolaridade'] . "</br>";
-        echo "Endereço:" . $_POST['endereço']."</br>";
+        echo "endereço:" . $_POST['endereço']."</br>";
         echo "telefone para contato:" . $_POST['telefone_de_contato'] . "</br>";
        
     }
@@ -43,7 +43,7 @@
     área de atuação: <input type=text name="área_de_atuação"> </br>
     escolaridade: <input type=text name="escolaridade"> </br>
     telefone de contato: <input type=text name="telefone_de_contato"> </br>
-    Endereço: <input type=text name="endereço"> </br>
+    endereço: <input type=text name="endereço"> </br>
     
     <button type="submit">Enviar</button>
 
@@ -96,6 +96,6 @@ if($_POST){
         echo "área de atuação: " . $_POST['área_de_atuação'] . "</br>";
         echo "escolaridade: " . $_POST['escolaridade'] . "</br>";
         echo "telefone de Contato: " . $_POST['telefone_de_contato'] . "</br>";
-        echo "Endereço: " . $_POST['endereço'] . "</br>";
+        echo "endereço: " . $_POST['endereço'] . "</br>";
 }
 ?>

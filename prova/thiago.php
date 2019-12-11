@@ -43,7 +43,7 @@
         <input type="radio" name="sexo" value="M"> Masculino | 
         <input type="radio" name="sexo" value="F"> Feminino </br>
     e-mail: <input type=text name="e-mail"> </br>
-    nome da mãe: <input type=text name="nomedamae"> </br>
+    nome da mãe: <input type=text name="nome_da_mae"> </br>
     área de atuação: <input type=text name="area_de_atuaçao"> </br>
     escolaridade: <input type=text name="escolaridade"> </br>
     endereço: <input type=text name="endereço"> </br>
@@ -92,7 +92,7 @@ if($_POST){
         echo "Nome: " . $_POST['nome'] . "</br>";
         echo "CPF: " . $_POST['cpf'] . "</br>";
         echo "rg: " . $_POST['rg'] . "</br>";
-        echo "data de nascimento: " . $_POST['data de nascimento'] . "</br>";
+        echo "data_de_nascimento: " . $_POST['data_de_nascimento'] . "</br>";
         echo "sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail: " . $_POST['e-mail'] . "</br>";
         echo "nome da mae: " . $_POST['nome da mae'] . "</br>";
