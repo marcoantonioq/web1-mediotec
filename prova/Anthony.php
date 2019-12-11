@@ -85,7 +85,9 @@
     Escolaridade: <input type=text name="escolaridade"> </br>
     Endereço: <input type=text name="endereço"> </br>
     Telefone para contato: <input type=text name="telefone_para_contato"> </br>
-
+    sexo: 
+        <input type="radio" name="sexo" value="M"> Masculino | 
+        <input type="radio" name="sexo" value="F"> Feminino </br>
     <button type="submit">Enviar</button>
 
 </form>

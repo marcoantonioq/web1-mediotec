@@ -42,8 +42,8 @@
             echo "<p>área_de_atuação Invalido";
         }
 
-        if( empty( $_POST['grau de Escolaridade'] ) ){
-            echo "<p>grau de Escolaridade Invalido";
+        if( empty( $_POST['grau_de_Escolaridade'] ) ){
+            echo "<p>grau_de_ Escolaridade Invalido";
         }
 
         if( empty( $_POST['endereço'] ) ){
@@ -61,7 +61,7 @@
         echo "<p>E-mail: " . $_POST['e-mail'] . "</br>";
         echo "<p>nome_do_responsável: " . $_POST['nome_do_responsável'] . "</br>";
         echo "<p>Área_de_atuação: " . $_POST['área_de_atuação'] . "</br>";
-        echo "<p>grau de Escolaridade: " . $_POST['grau de Escolaridade'] . "</br>";
+        echo "<p>grau_de_Escolaridade: " . $_POST['grau_de_Escolaridade'] . "</br>";
         echo "<p>Endereço: " . $_POST['endereço'] . "</br>";
         echo "<p>Telefone_para_contato: " . $_POST['telefone_para_contato'] . "</br>";
        
@@ -80,7 +80,7 @@
     E-mail: <input type=text name="e-mail"> </br>
     Nome do responsável: <input type=text name="nome_do_responsável"> </br>
     Área de atuação: <input type=text name="área_de_atuação"> </br>
-    Grau de escolaridade: <input type=text name="grau de Escolaridade"> </br>
+    Grau de escolaridade: <input type=text name="grau_de_Escolaridade"> </br>
     Endereço: <input type=text name="endereço"> </br>
     Telefone para contato: <input type=text name="telefone_para_contato"> </br>
 

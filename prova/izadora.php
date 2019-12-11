@@ -59,8 +59,8 @@ if($_POST){
         if( empty( $_POST['cpf'] ) ){
             echo "<p>CPF empty";
         }
-        if( empty( $_POST['RG'] ) ){
-            echo "<p> RG empty";
+        if( empty( $_POST['rg'] ) ){
+            echo "<p> rg empty";
         }
          if( empty( $_POST['data de nascimento'] ) ){
             echo "<p>data de Nascimento empty";
@@ -88,7 +88,7 @@ if($_POST){
         }
         echo "nome: " . $_POST['nome'] . "</br>";
         echo "CPF: " . $_POST['cpf'] . "</br>";
-        echo "RG: " . $_POST['RG'] . "</br>";
+        echo "RG: " . $_POST['rg'] . "</br>";
         echo "data de nascimento: " . $_POST['data_de_nascimento'] . "</br>";
         echo "sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail: " . $_POST['e-mail'] . "</br>";

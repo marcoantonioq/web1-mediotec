@@ -95,6 +95,6 @@ if($_POST){
         echo "nome da mãe: " . $_POST['nome_da_mãe'] . "</br>";
         echo "área de atuação: " . $_POST['área_de_atuação'] . "</br>";
         echo "escolaridade: " . $_POST['escolaridade'] . "</br>";
-        echo "telefone de Contato: " . $_POST['telefone_de_contato'] . "</br>";
+        echo "endereço: " . $_POST['endereço'] . "</br>";
         
 ?>
