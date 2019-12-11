@@ -19,14 +19,14 @@
         echo "Nome: " . $_POST['nome'] . "</br>";
         echo "CPF: " . $_POST['cpf'] . "</br>";
         echo "RG:" . $_POST['RG'] . "</br>";
-        echo "data de nascimento:" . $_POST['data de nascimento'] . "</br>";
+        echo "data_de_nascimento:" . $_POST['data_de_nascimento'] . "</br>";
         echo "Sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail:" . $_POST['e-mail'] . "</br>";
-        echo "nome da mãe:" . $_POST['nome da mãe'] . "</br>";
-        echo "área de atuação" . $_POST['área de atuação'] . "</br>";
+        echo "nome_da_mãe:" . $_POST['nome_da_mãe'] . "</br>";
+        echo "área_de atuação" . $_POST['área_de_atuação'] . "</br>";
         echo "escolaridade" . $_POST['escolaridade'] . "</br>";
         echo "endereço" . $_POST['endereço'] . "</br>";
-        echo "tefone para contato" . $_POST['telefone para contato'] . "</br>";
+        echo "tefone para contato" . $_POST['telefone_para_contato'] . "</br>";
 
     }
 ?> 

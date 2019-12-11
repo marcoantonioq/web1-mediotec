@@ -14,7 +14,7 @@
             echo "<p>nome_completo Invalido";
         }
 
-        if( empty( $_POST['cpf'] ) ){
+        if( empty( $_POST['CPF'] ) ){
             echo "<p>CPF Invalido";
         }
 
@@ -54,7 +54,7 @@
             echo "<p>telefone_para_contato Invalido";
         }
         echo "<p>nome_completo: " . $_POST['nome_completo'] . "</br>";
-        echo "<p>cpf: " . $_POST['cpf'] . "</br>";
+        echo "<p>CPF: " . $_POST['cpf'] . "</br>";
         echo "<p>RG: " . $_POST['RG'] . "</br>";
         echo "<p>Data_de_nascimento: " . $_POST['data_de_nascimento'] . "</br>";
         echo "<p>Sexo: " . $_POST['sexo'] . "</br>";
@@ -73,7 +73,7 @@
 <form action="" method="post">
 
     Nome Completo: <input type=text name="nome_completo"> </br>
-    CPF: <input type=text name="cpf"> </br>
+    CPF: <input type=text name="CPF"> </br>
     RG: <input type=text name="RG"> </br>
     Data de nascimento: <input type=text name="data_de_nascimento"> </br>
     Sexo: <input type=text name="sexo"> </br>

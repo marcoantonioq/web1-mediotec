@@ -63,7 +63,7 @@ if($_POST){
             echo "<p> RG empty";
         }
          if( empty( $_POST['data de nascimento'] ) ){
-            echo "<p>data de Nascimento empty";
+            echo "<p>data_de_Nascimento empty";
         }
         if( empty( $_POST['sexo'] ) ){
             echo "<p>sexo empty";
@@ -72,16 +72,16 @@ if($_POST){
             echo "<p>e-mail empty";
         }
          if( empty( $_POST['nome da mãe'] ) ){
-            echo "<p> nome da mãe empty";
+            echo "<p> nome_da_mãe empty";
         }
          if( empty( $_POST['area de atuação'] ) ){
-            echo "<p>área de atuação empty";
+            echo "<p>área_de_atuação empty";
         }
         if( empty( $_POST['escolaridade'] ) ){
             echo "<p>escolaridade empty";
         }
         if( empty( $_POST['telefone de contato'] ) ){
-            echo "<p>telefone de Contato empty";
+            echo "<p>telefone_de_Contato empty";
         }
         if( empty( $_POST['endereço'] ) ){
             echo "<p>endereço empty";
@@ -89,13 +89,13 @@ if($_POST){
         echo "nome: " . $_POST['nome'] . "</br>";
         echo "CPF: " . $_POST['cpf'] . "</br>";
         echo "RG: " . $_POST['rg'] . "</br>";
-        echo "data de nascimento: " . $_POST['data de nascimento'] . "</br>";
+        echo "data de nascimento: " . $_POST['data_de_nascimento'] . "</br>";
         echo "sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail: " . $_POST['e-mail'] . "</br>";
-        echo "nome da mãe: " . $_POST['nome da mãe'] . "</br>";
-        echo "área de atuação: " . $_POST['área de atuação'] . "</br>";
+        echo "nome da mãe: " . $_POST['nome_da_mãe'] . "</br>";
+        echo "área de atuação: " . $_POST['área_de_atuação'] . "</br>";
         echo "escolaridade: " . $_POST['escolaridade'] . "</br>";
-        echo "telefone de Contato: " . $_POST['telefone de contato'] . "</br>";
+        echo "telefone de Contato: " . $_POST['telefone_de_contato'] . "</br>";
         echo "endereço: " . $_POST['endereço'] . "</br>";
 }
 ?>

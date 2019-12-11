@@ -59,7 +59,7 @@
         echo "<p>Data_de_nascimento: " . $_POST['data_de_nascimento'] . "</br>";
         echo "<p>Sexo: " . $_POST['sexo'] . "</br>";
         echo "<p>E-mail: " . $_POST['e-mail'] . "</br>";
-        echo "<p>nome_da_mãe: " . $_POST['nome_da_mãe'] . "</br>";
+        echo "<p>nome_dos_responsaveis: " . $_POST['nome_da_mãe'] . "</br>";
         echo "<p>Área_de_atuação: " . $_POST['área_de_atuação'] . "</br>";
         echo "<p>Escolaridade: " . $_POST['escolaridade'] . "</br>";
         echo "<p>Endereço: " . $_POST['endereço'] . "</br>";
@@ -78,7 +78,7 @@
     Data de nascimento: <input type=text name="data_de_nascimento"> </br>
     Sexo: <input type=text name="sexo"> </br>
     E-mail: <input type=text name="e-mail"> </br>
-    Nome da mãe: <input type=text name="nome_da_mãe"> </br>
+    Nome dos responsaveis: <input type=text name="nome_dos_responsaveis"> </br>
     Área de atuação: <input type=text name="área_de_atuação"> </br>
     Escolaridade: <input type=text name="escolaridade"> </br>
     Endereço: <input type=text name="endereço"> </br>
