@@ -59,7 +59,7 @@ if($_POST){
         if( empty( $_POST['cpf'] ) ){
             echo "<p>CPF empty";
         }
-        if( empty( $_POST['r'] ) ){
+        if( empty( $_POST[''] ) ){
             echo "<p> RG empty";
         }
          if( empty( $_POST['data de nascimento'] ) ){
