@@ -78,9 +78,9 @@
     Data de nascimento: <input type=text name="data_de_nascimento"> </br>
     Sexo: <input type=text name="sexo"> </br>
     E-mail: <input type=text name="e-mail"> </br>
-    Nome da mãe: <input type=text name="nome_da_mãe"> </br>
+    Nome do responsável: <input type=text name="nome_da_mãe"> </br>
     Área de atuação: <input type=text name="área_de_atuação"> </br>
-    Escolaridade: <input type=text name="escolaridade"> </br>
+    Grau de escolaridade: <input type=text name="escolaridade"> </br>
     Endereço: <input type=text name="endereço"> </br>
     Telefone para contato: <input type=text name="telefone_para_contato"> </br>
 

@@ -23,10 +23,10 @@
         echo "Sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail:" . $_POST['e-mail'] . "</br>";
         echo "nome_da_mãe:" . $_POST['nome_da_mãe'] . "</br>";
-        echo "área_de atuação" . $_POST['área_de_atuação'] . "</br>";
+        echo "área_de_atuação" . $_POST['área_de_atuação'] . "</br>";
         echo "escolaridade" . $_POST['escolaridade'] . "</br>";
         echo "endereço" . $_POST['endereço'] . "</br>";
-        echo "tefone para contato" . $_POST['telefone_para_contato'] . "</br>";
+        echo "tefone_para_contato" . $_POST['telefone_para_contato'] . "</br>";
 
     }
 ?> 
@@ -38,16 +38,16 @@
     Nome: <input type=text name="nome"> </br>
     CPF: <input type=text name="cpf"> </br>
     RG: <input type=text name="RG"> </br>
-    data de nascimento: <input type=text name="data de nascimento"> </br>
+    data de nascimento: <input type=text name="data_de_nascimento"> </br>
     Sexo: 
         <input type="radio" name="sexo" value="M"> Masculino | 
         <input type="radio" name="sexo" value="F"> Feminino </br>
     e-mail: <input type=text name="e-mail"> </br>
     nome da mãe: <input type=text name="nomedamae"> </br>
-    área de atuação: <input type=text name="areadeatuaçao"> </br>
+    área de atuação: <input type=text name="area_de_atuaçao"> </br>
     escolaridade: <input type=text name="escolaridade"> </br>
     endereço: <input type=text name="escolaridade"> </br>
-    telefone de contato: <input type=text name="telefonedecontato"> </br>
+    telefone de contato: <input type=text name="telefone_de_contato"> </br>
    
     <button type="submit">Enviar</button>
 

@@ -14,14 +14,14 @@
     if($_POST){ // se $_POST existe
         echo "Nome: " . $_POST['nome'] . "</br>";
         echo "CPF: " . $_POST['cpf'] . "</br>";
-        echo "RG:" . $_POST['rg'] . "</br>";
+        echo "RG:" . $_POST['RG'] . "</br>";
         echo "Data de nascimento:" . $_POST['data_de_nascimento'] . "</br>";
         echo "Sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail:" . $_POST['e-mail'] . "</br>";
         echo "nome da mãe:" . $_POST['nome_da_mãe'] . "</br>";
         echo "área de atuação" . $_POST['área_de_atuação']."</br>";
         echo "escolaridade:" . $_POST['escolaridade'] . "</br>";
-        echo "endereço" . $_POST['endereço']."</br>";
+        echo "endereço" . $_POST['Endereço']."</br>";
         echo "telefone para contato:" . $_POST['telefone_de_contato'] . "</br>";
        
     }
@@ -59,7 +59,7 @@ if($_POST){
         if( empty( $_POST['cpf'] ) ){
             echo "<p>CPF empty";
         }
-        if( empty( $_POST[''] ) ){
+        if( empty( $_POST['RG'] ) ){
             echo "<p> RG empty";
         }
          if( empty( $_POST['data de nascimento'] ) ){
