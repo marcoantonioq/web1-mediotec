@@ -14,7 +14,7 @@
             echo "<p>nome_completo Invalido";
         }
 
-        if( empty( $_POST['CPF'] ) ){
+        if( empty( $_POST['cpf'] ) ){
             echo "<p>CPF Invalido";
         }
 
@@ -35,7 +35,7 @@
         }
 
         if( empty( $_POST['nome_da_mãe'] ) ){
-            echo "<p>nome_do_responsável Invalido";
+            echo "<p>nome_da_mãe Invalido";
         }
 
         if( empty( $_POST['área_de_atuação'] ) ){
@@ -54,12 +54,12 @@
             echo "<p>telefone_para_contato Invalido";
         }
         echo "<p>nome_completo: " . $_POST['nome_completo'] . "</br>";
-        echo "<p>CPF: " . $_POST['CPF'] . "</br>";
+        echo "<p>cpf: " . $_POST['cpf'] . "</br>";
         echo "<p>RG: " . $_POST['RG'] . "</br>";
         echo "<p>Data_de_nascimento: " . $_POST['data_de_nascimento'] . "</br>";
         echo "<p>Sexo: " . $_POST['sexo'] . "</br>";
         echo "<p>E-mail: " . $_POST['e-mail'] . "</br>";
-        echo "<p>nome_do_responsável: " . $_POST['nome_do_responsável'] . "</br>";
+        echo "<p>nome_da_mãe: " . $_POST['nome_da_mãe'] . "</br>";
         echo "<p>Área_de_atuação: " . $_POST['área_de_atuação'] . "</br>";
         echo "<p>Escolaridade: " . $_POST['escolaridade'] . "</br>";
         echo "<p>Endereço: " . $_POST['endereço'] . "</br>";
@@ -73,12 +73,12 @@
 <form action="" method="post">
 
     Nome Completo: <input type=text name="nome_completo"> </br>
-    CPF: <input type=text name="CPF"> </br>
+    CPF: <input type=text name="cpf"> </br>
     RG: <input type=text name="RG"> </br>
     Data de nascimento: <input type=text name="data_de_nascimento"> </br>
     Sexo: <input type=text name="sexo"> </br>
     E-mail: <input type=text name="e-mail"> </br>
-    Nome do responsável: <input type=text name="nome_do_responsável"> </br>
+    Nome da mãe: <input type=text name="nome_da_mãe"> </br>
     Área de atuação: <input type=text name="área_de_atuação"> </br>
     Escolaridade: <input type=text name="escolaridade"> </br>
     Endereço: <input type=text name="endereço"> </br>
@@ -87,3 +87,4 @@
     <button type="submit">Enviar</button>
 
 </form>
+

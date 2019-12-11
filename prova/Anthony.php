@@ -76,9 +76,6 @@
     CPF: <input type=text name="cpf"> </br>
     RG: <input type=text name="RG"> </br>
     Data de nascimento: <input type=text name="data_de_nascimento"> </br>
-     sexo: 
-        <input type="radio" name="sexo" value="M"> Masculino | 
-        <input type="radio" name="sexo" value="F"> Feminino </br>
     E-mail: <input type=text name="e-mail"> </br>
     Nome da mãe: <input type=text name="nome_da_mãe"> </br>
     Área de atuação: <input type=text name="área_de_atuação"> </br>
