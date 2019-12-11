@@ -20,7 +20,7 @@
         echo "CPF: " . $_POST['cpf'] . "</br>";
         echo "RG:" . $_POST['RG'] . "</br>";
         echo "data_de_nascimento:" . $_POST['data_de_nascimento'] . "</br>";
-        echo "Sexo: " . $_POST['exo'] . "</br>";
+        echo "sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail:" . $_POST['e-mail'] . "</br>";
         echo "nome_da_mãe:" . $_POST['nome_da_mãe'] . "</br>";
         echo "área_de_atuação" . $_POST['área_de_atuação'] . "</br>";
