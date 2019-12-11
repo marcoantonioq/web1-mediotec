@@ -21,7 +21,7 @@
         echo "nome da mãe:" . $_POST['nome_da_mãe'] . "</br>";
         echo "área de atuação" . $_POST['área_de_atuação']."</br>";
         echo "escolaridade:" . $_POST['escolaridade'] . "</br>";
-        echo "endereço" . $_POST['Endereço']."</br>";
+        echo "Endereço" . $_POST['Endereço']."</br>";
         echo "telefone para contato:" . $_POST['telefone_de_contato'] . "</br>";
        
     }
