@@ -15,10 +15,10 @@
         echo "Nome: " . $_POST['nome'] . "</br>";
         echo "CPF: " . $_POST['cpf'] . "</br>";
         echo "RG:" . $_POST['rg'] . "</br>";
-        echo "Data de nascimento:" . $_POST['data de nascimento'] . "</br>";
+        echo "Data de nascimento:" . $_POST['data_de_nascimento'] . "</br>";
         echo "Sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail:" . $_POST['e-mail'] . "</br>";
-        echo "nome da mãe:" . $_POST['nome da mãe'] . "</br>";
+        echo "nome da mãe:" . $_POST['nome_da mãe'] . "</br>";
         echo "área de atuação" . $_POST['área de atuação']."</br>";
         echo "escolaridae:" . $_POST['escolaridae'] . "</br>";
         echo "endereço" . $_POST['endereço']."</br>";
@@ -31,19 +31,19 @@
 
 <form action="" method="post">
 
-    Nome: <input type=text name="nome"> </br>
+    nome: <input type=text name="nome"> </br>
     CPF: <input type=text name="cpf"> </br>
     RG: <input type=text name="rg"> </br>
-    data de nascimento: <input type=text name=" data de nascimento"> </br>
-    Sexo: 
+    data de nascimento: <input type=text name="datadenascimento"> </br>
+    sexo: 
         <input type="radio" name="sexo" value="M"> Masculino | 
         <input type="radio" name="sexo" value="F"> Feminino </br>
     e-mail: <input type=text name="e-mail"> </br>
     nome da mãe: <input type=text name="nome da mãe"> </br>
-    Aréa de atuação: <input type=text name="área de atuação"> </br>
-    Escolaridade: <input type=text name="escolaridade"> </br>
-    Telefone de contato: <input type=text name="telefone de contato"> </br>
-    Endereço: <input type=text name="end"> </br>
+    área de atuação: <input type=text name="área de atuação"> </br>
+    escolaridade: <input type=text name="escolaridade"> </br>
+    telefone de contato: <input type=text name="telefone de contato"> </br>
+    endereço: <input type=text name="end"> </br>
     
     <button type="submit">Enviar</button>
 
@@ -54,7 +54,7 @@
 if($_POST){ 
 
         if( empty( $_POST['nome'] ) ){
-            echo "<p>Nome empty ";
+            echo "<p>nome empty ";
         }
         if( empty( $_POST['cpf'] ) ){
             echo "<p>CPF empty";
@@ -66,36 +66,36 @@ if($_POST){
             echo "<p>data de Nascimento empty";
         }
         if( empty( $_POST['sexo'] ) ){
-            echo "<p>Sexo empty";
+            echo "<p>sexo empty";
         }
          if( empty( $_POST['e-mail'] ) ){
-            echo "<p>E-mail empty";
+            echo "<p>e-mail empty";
         }
          if( empty( $_POST['nome da mãe'] ) ){
-            echo "<p>Nome da Mãe empty";
+            echo "<p> nome da mãe empty";
         }
          if( empty( $_POST['area de atuação'] ) ){
-            echo "<p>Área de atuação empty";
+            echo "<p>área de atuação empty";
         }
         if( empty( $_POST['escolaridade'] ) ){
-            echo "<p>Escolaridade empty";
+            echo "<p>escolaridade empty";
         }
         if( empty( $_POST['telefone de contato'] ) ){
-            echo "<p>Telefone de Contato empty";
+            echo "<p>telefone de Contato empty";
         }
         if( empty( $_POST['endereço'] ) ){
-            echo "<p>Endereço empty";
+            echo "<p>endereço empty";
         }
-        echo "Nome: " . $_POST['nome'] . "</br>";
+        echo "nome: " . $_POST['nome'] . "</br>";
         echo "CPF: " . $_POST['cpf'] . "</br>";
         echo "RG: " . $_POST['rg'] . "</br>";
-        echo "Data de nascimento: " . $_POST['data de nascimento'] . "</br>";
-        echo "Sexo: " . $_POST['sexo'] . "</br>";
+        echo "data de nascimento: " . $_POST['data de nascimento'] . "</br>";
+        echo "sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail: " . $_POST['e-mail'] . "</br>";
         echo "nome da mãe: " . $_POST['nome da mãe'] . "</br>";
         echo "área de atuação: " . $_POST['área de atuação'] . "</br>";
-        echo "Escolaridade: " . $_POST['escolaridade'] . "</br>";
-        echo "Telefone de Contato: " . $_POST['telefone de contato'] . "</br>";
-        echo "Endereço: " . $_POST['endereço'] . "</br>";
+        echo "escolaridade: " . $_POST['escolaridade'] . "</br>";
+        echo "telefone de Contato: " . $_POST['telefone de contato'] . "</br>";
+        echo "endereço: " . $_POST['endereço'] . "</br>";
 }
 ?>

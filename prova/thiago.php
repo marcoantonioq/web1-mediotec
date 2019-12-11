@@ -96,8 +96,10 @@ if($_POST){
         echo "sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail: " . $_POST['e-mail'] . "</br>";
         echo "nome da mae: " . $_POST['nome da mae'] . "</br>";
-        echo ": " . $_POST[''] . "</br>";
-        echo "Idade: " . $_POST['idade'] . "</br>";
+        echo "area de atuaçao: " . $_POST['area de atuaçao'] . "</br>";
+        echo "escolaridade: " . $_POST['escolaridade'] . "</br>";
+        echo "endereço: " . $_POST['endereço'] . "</br>";
+        echo "telefone de contato: " . $_POST['telefone de contato'] . "</br>";
         
          
 }
