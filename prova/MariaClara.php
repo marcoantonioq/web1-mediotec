@@ -54,7 +54,7 @@
             echo "<p>telefone_para_contato Invalido";
         }
         echo "<p>nome_completo: " . $_POST['nome_completo'] . "</br>";
-        echo "<p>CPF: " . $_POST['cpf'] . "</br>";
+        echo "<p>CPF: " . $_POST['CPF'] . "</br>";
         echo "<p>RG: " . $_POST['RG'] . "</br>";
         echo "<p>Data_de_nascimento: " . $_POST['data_de_nascimento'] . "</br>";
         echo "<p>Sexo: " . $_POST['sexo'] . "</br>";

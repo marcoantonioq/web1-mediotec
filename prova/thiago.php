@@ -46,7 +46,7 @@
     nome da mãe: <input type=text name="nomedamae"> </br>
     área de atuação: <input type=text name="area_de_atuaçao"> </br>
     escolaridade: <input type=text name="escolaridade"> </br>
-    endereço: <input type=text name="escolaridade"> </br>
+    endereço: <input type=text name="endereço"> </br>
     telefone de contato: <input type=text name="telefone_de_contato"> </br>
    
     <button type="submit">Enviar</button>

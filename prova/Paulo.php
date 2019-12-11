@@ -96,6 +96,6 @@ if($_POST){
         echo "área de atuação: " . $_POST['área_de_atuação'] . "</br>";
         echo "escolaridade: " . $_POST['escolaridade'] . "</br>";
         echo "telefone de Contato: " . $_POST['telefone_de_contato'] . "</br>";
-        echo "endereço: " . $_POST['endereço'] . "</br>";
+        echo "Endereço: " . $_POST['endereço'] . "</br>";
 }
 ?>
