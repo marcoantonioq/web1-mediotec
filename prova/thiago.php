@@ -26,7 +26,7 @@
         echo "área_de_atuação" . $_POST['área_de_atuação'] . "</br>";
         echo "escolaridade" . $_POST['escolaridade'] . "</br>";
         echo "endereço" . $_POST['endereço'] . "</br>";
-        echo "tefone_para_contato" . $_POST['telefone_para_contato'] . "</br>";
+        echo "telefone_para_contato" . $_POST['telefone_para_contato'] . "</br>";
 
     }
 ?> 

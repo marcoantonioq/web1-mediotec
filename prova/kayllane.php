@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>provaRomis</title>
+    <title>provakayllane</title>
 </head>
 <body>
 <?php 
@@ -59,7 +59,7 @@
         echo "<p>Data_de_nascimento: " . $_POST['data_de_nascimento'] . "</br>";
         echo "<p>Sexo: " . $_POST['sexo'] . "</br>";
         echo "<p>E-mail: " . $_POST['e-mail'] . "</br>";
-        echo "<p>nome_dos_responsaveis: " . $_POST['nome_da_mãe'] . "</br>";
+        echo "<p>nome_dos_responsaveis: " . $_POST['nome_dos_responsavel'] . "</br>";
         echo "<p>Área_de_atuação: " . $_POST['área_de_atuação'] . "</br>";
         echo "<p>Escolaridade: " . $_POST['escolaridade'] . "</br>";
         echo "<p>Endereço: " . $_POST['endereço'] . "</br>";

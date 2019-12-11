@@ -14,7 +14,7 @@
     if($_POST){ // se $_POST existe
         echo "Nome: " . $_POST['nome'] . "</br>";
         echo "CPF: " . $_POST['cpf'] . "</br>";
-        echo "RG:" . $_POST['RG'] . "</br>";
+        echo "RG:" . $_POST["rg"] . "</br>";
         echo "Data de nascimento:" . $_POST['data_de_nascimento'] . "</br>";
         echo "Sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail:" . $_POST['e-mail'] . "</br>";
