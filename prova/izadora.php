@@ -15,14 +15,14 @@
         echo "Nome: " . $_POST['nome'] . "</br>";
         echo "CPF: " . $_POST['cpf'] . "</br>";
         echo "RG:" . $_POST['RG'] . "</br>";
-        echo "data de nascimento:" . $_POST['data de nascimento'] . "</br>";
+        echo "data de nascimento:" . $_POST['data_de_nascimento'] . "</br>";
         echo "Sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail:" . $_POST['e-mail'] . "</br>";
-        echo "nome da mãe:" . $_POST['nome da mãe'] . "</br>";
-        echo "área de atuação" . $_POST['área de atuação']."</br>";
+        echo "nome da mãe:" . $_POST['nome_da_mãe'] . "</br>";
+        echo "área de atuação" . $_POST['área_de_atuação']."</br>";
         echo "escolaridade:" . $_POST['escolaridade'] . "</br>";
         echo "endereço" . $_POST['endereço']."</br>";
-        echo "telefone para contato:" . $_POST['telefone de contato'] . "</br>";
+        echo "telefone para contato:" . $_POST['telefone_de_contato'] . "</br>";
        
     }
 ?> 
@@ -34,12 +34,12 @@
     Nome: <input type=text name="nome"> </br>
     CPF: <input type=text name="cpf"> </br>
     RG: <input type=text name="RG"> </br>
-    Data de nascimento: <input type=text name="data de nascimento"> </br>
+    Data de nascimento: <input type=text name="data_de_nascimento"> </br>
     E-mail: <input type=text name="e-mail"> </br>
-    Nome da mãe: <input type=text name="nome da mãe"> </br>
-    Aréa de atuação: <input type=text name="área de atuação"> </br>
+    Nome da mãe: <input type=text name="nome_da_mãe"> </br>
+    Aréa de atuação: <input type=text name="área_de_atuação"> </br>
     Escolaridade: <input type=text name="escolaridade"> </br>
-    Telefone de contato: <input type=text name="telefone de contato"> </br>
+    Telefone de contato: <input type=text name="telefone_de_contato"> </br>
     
     Endereço: <input type=text name="end"> </br>
     Sexo: 

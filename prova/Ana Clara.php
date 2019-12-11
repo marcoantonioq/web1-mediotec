@@ -18,11 +18,11 @@
         echo "data de nascimento:" . $_POST['data de nascimento'] . "</br>";
         echo "Sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail:" . $_POST['e-mail'] . "</br>";
-        echo "nome do responsavel:" . $_POST['nomedaRESPONSAVEL'] . "</br>";
+        echo "nome do responsavel:" . $_POST['nome da RESPONSAVEL'] . "</br>";
         echo "área de atuação" . $_POST['área de atuação']."</br>";
         echo "escolaridae:" . $_POST['escolaridae'] . "</br>";
         echo "endereço" . $_POST['endereço']."</br>";
-        echo "telefone para contato:" . $_POST['telefone de contato'] . "</br>";
+        echo "telefone para contato:" . $_POST['telefone-de-contato'] . "</br>";
        
     }
 ?> 

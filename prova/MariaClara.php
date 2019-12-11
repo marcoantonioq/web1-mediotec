@@ -35,7 +35,7 @@
         }
 
         if( empty( $_POST['nome_da_mãe'] ) ){
-            echo "<p>nome_da_mãe Invalido";
+            echo "<p>nome_do_responsável Invalido";
         }
 
         if( empty( $_POST['área_de_atuação'] ) ){
@@ -59,7 +59,7 @@
         echo "<p>Data_de_nascimento: " . $_POST['data_de_nascimento'] . "</br>";
         echo "<p>Sexo: " . $_POST['sexo'] . "</br>";
         echo "<p>E-mail: " . $_POST['e-mail'] . "</br>";
-        echo "<p>nome_da_mãe: " . $_POST['nome_da_mãe'] . "</br>";
+        echo "<p>nome_do_responsável: " . $_POST['nome_da_mãe'] . "</br>";
         echo "<p>Área_de_atuação: " . $_POST['área_de_atuação'] . "</br>";
         echo "<p>Escolaridade: " . $_POST['escolaridade'] . "</br>";
         echo "<p>Endereço: " . $_POST['endereço'] . "</br>";
@@ -78,7 +78,7 @@
     Data de nascimento: <input type=text name="data_de_nascimento"> </br>
     Sexo: <input type=text name="sexo"> </br>
     E-mail: <input type=text name="e-mail"> </br>
-    Nome da mãe: <input type=text name="nome_da_mãe"> </br>
+    Nome do responsável: <input type=text name="nome_do_responsável"> </br>
     Área de atuação: <input type=text name="área_de_atuação"> </br>
     Escolaridade: <input type=text name="escolaridade"> </br>
     Endereço: <input type=text name="endereço"> </br>

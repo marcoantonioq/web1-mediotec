@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>prova/izadora</title>
+    <title>prova/Paulo</title>
 </head>
 <body>
 <meta charset="UTF-8" >
@@ -18,11 +18,11 @@
         echo "Data de nascimento:" . $_POST['data_de_nascimento'] . "</br>";
         echo "Sexo: " . $_POST['sexo'] . "</br>";
         echo "e-mail:" . $_POST['e-mail'] . "</br>";
-        echo "nome da mãe:" . $_POST['nome_da mãe'] . "</br>";
-        echo "área de atuação" . $_POST['área de atuação']."</br>";
-        echo "escolaridae:" . $_POST['escolaridae'] . "</br>";
+        echo "nome da mãe:" . $_POST['nome_da_mãe'] . "</br>";
+        echo "área de atuação" . $_POST['área_de_atuação']."</br>";
+        echo "escolaridade:" . $_POST['escolaridade'] . "</br>";
         echo "endereço" . $_POST['endereço']."</br>";
-        echo "telefone para contato:" . $_POST['telefone de contato'] . "</br>";
+        echo "telefone para contato:" . $_POST['telefone_de_contato'] . "</br>";
        
     }
 ?> 
@@ -34,16 +34,16 @@
     nome: <input type=text name="nome"> </br>
     CPF: <input type=text name="cpf"> </br>
     RG: <input type=text name="rg"> </br>
-    data de nascimento: <input type=text name="datadenascimento"> </br>
+    data de nascimento: <input type=text name="data_de_nascimento"> </br>
     sexo: 
         <input type="radio" name="sexo" value="M"> Masculino | 
         <input type="radio" name="sexo" value="F"> Feminino </br>
     e-mail: <input type=text name="e-mail"> </br>
-    nome da mãe: <input type=text name="nome da mãe"> </br>
-    área de atuação: <input type=text name="área de atuação"> </br>
+    nome da mãe: <input type=text name="nome_da_mãe"> </br>
+    área de atuação: <input type=text name="área_de_atuação"> </br>
     escolaridade: <input type=text name="escolaridade"> </br>
-    telefone de contato: <input type=text name="telefone de contato"> </br>
-    endereço: <input type=text name="end"> </br>
+    telefone de contato: <input type=text name="telefone_de_contato"> </br>
+    endereço: <input type=text name="endereço"> </br>
     
     <button type="submit">Enviar</button>
 
