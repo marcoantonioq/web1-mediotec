@@ -28,6 +28,35 @@
 	- [X] O que é PHP?
 	- [X] Instalação;
 	- [X] Sintaxe básica;
-- [ ] 18/11/2019
-	- [ ] PHP: Variáveis e tipos, array, operadores;
-	- [ ] PHP: Estruturas de controle;
+- [X] 18/11/2019
+	- [X] PHP: Variáveis e tipos, array, operadores;
+	- [X] PHP: Estruturas de controle;
+	
+- [X] 25/11/2019:
+	- PHP: Estruturas de controle;
+- [X] 26/11/2019:
+	- PHP: Funções;
+- [X] 02/12/2019:
+	- Recebendo dados do formulário:
+	- ◦ Métodos (GET e POST);
+	- ◦ Obtendo e validando os dados;
+	- Atividade prática: IMC
+- [X] 03/12/2019:
+	- O que é MySQL?
+	- Instalação;
+• Criando o banco de dados;
+- [X] 04/12/2019:
+	- Conectando ao banco de dados;
+	- Criar, ler, atualizar e apagar dados no banco de dados;
+- [X] 09/12/2019:
+	- PHP: Formulário dinâmico com banco de dados (criar, ler, atualizar e apagar registros);
+- [X] 10/12/2019:
+	- Gerenciando sessões
+	- Caso de uso: aplicação utilizando o padrão MVC
+- [X] 11/12/2019:
+	- Elaboração do trabalho prático P1;
+- [X] 13/02/2020:
+	- Apresentação trabalho Prático 2 (P2): Elaboração de site 2
+	- Revisão do conteúdo aprendido;
+- [X] 14/02/2012:
+	- Atividade avaliativa (N2)
