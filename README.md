@@ -58,5 +58,5 @@
 - [X] 13/02/2020:
 	- Apresentação trabalho Prático 2 (P2): Elaboração de site 2
 	- Revisão do conteúdo aprendido;
-- [X] 14/02/2012:
+- [X] 14/02/2020:
 	- Atividade avaliativa (N2)
